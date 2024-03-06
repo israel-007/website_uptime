@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+	width: 8px;
+	height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #888;
+	/* Set the color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+	/* Set the color of the scrollbar track */
+}
+
+.monitor,
+.monitor-categories {
+	border-radius: 10px;
+}
+
+.monitor-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bg-gray {
+	background-color: rgb(240, 240, 240);
+}
+
+.monitor-item {
+	border: 1px solid rgb(160, 160, 160);
+	border-radius: 10px;
+}
+
+.monitor-item-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.monitor-name,
+.monitor-expand {
+	color: rgb(112, 112, 112);
+	font-size: 12px;
+}
+
+.monitor-indicators {
+	overflow: scroll;
+}
+
+.monitor-indicator {
+	/* padding-right: 10px; */
+	/* padding-left: 10px; */
+	padding: 10px;
+	height: 45px;
+	width: 10px !important;
+	border-radius: 6px;
+}
+
+.monitor-status {
+	font-size: 12px;
+}
+
+.monitor-days {
+	display: none;
+}
+
+.display-block {
+	display: block;
+}
+
+.contain {
+	width: 100% !important;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.categories-item {
+	font-size: 12px;
+	text-align: center;
+}
+
+@media (min-width: 767px) {
+	.contain {
+		width: 50% !important;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.categories-item {
+		font-size: auto;
+	}
+
+	.monitor-name,
+	.monitor-expand {
+		color: rgb(112, 112, 112);
+		font-size: 87.5%;
+	}
+
+	.monitor-status {
+		font-size: auto;
+		padding-left: 370px;
+	}
+}
